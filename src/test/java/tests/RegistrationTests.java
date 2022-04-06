@@ -41,7 +41,6 @@ public class RegistrationTests extends TestBase {
         applicationManager.getUserhelper().openRegistrationForm();
         applicationManager.getUserhelper().fillRegistrationform(user);
         applicationManager.getUserhelper().checkPolicyXY();
-        applicationManager.getUserhelper().submit();
         Assert.assertTrue(applicationManager.getUserhelper().isErrorPasswordDisplayedSize());
         Assert.assertTrue(applicationManager.getUserhelper().isErrorPasswordDisplayedFormat());
         Assert.assertFalse(applicationManager.getUserhelper().isYallaButtonInactive());

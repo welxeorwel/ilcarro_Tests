@@ -14,14 +14,14 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void loginSuccess() {
-        applicationManager.getUserhelper().openLoginForm();
-        applicationManager.getUserhelper().fillLoginForm("bobik@gmail.com", "Bobik123");
-        applicationManager.getUserhelper().submit();
-        applicationManager.getUserhelper().pause(1000);
-        Assert.assertEquals(applicationManager.getUserhelper().checkMessage(), "Logged in success");
-    }
+    //  @Test
+    //  public void loginSuccess() {
+    //    applicationManager.getUserhelper().openLoginForm();
+    //    applicationManager.getUserhelper().fillLoginForm("bobik@gmail.com", "Bobik123");
+    //       applicationManager.getUserhelper().submit();
+    //   applicationManager.getUserhelper().pause(1000);
+    //     Assert.assertEquals(applicationManager.getUserhelper().checkMessage(), "Logged in success");
+    //  }
 
     @Test
     public void loginSuccessNew() {
@@ -34,7 +34,7 @@ public class LoginTests extends TestBase {
     }
 
     @AfterMethod
-    public void postCondition(){
+    public void postCondition() {
         applicationManager.getUserhelper().submitOkButton();
     }
 }

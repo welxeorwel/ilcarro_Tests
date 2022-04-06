@@ -8,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class UserHelper extends HelperBase {
@@ -77,17 +76,15 @@ public class UserHelper extends HelperBase {
     }
 
     public boolean isErrorPasswordDisplayedSize() {
-        Boolean firstChild = new WebDriverWait(wd, 5)
+        return new WebDriverWait(wd, 5)
                 .until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child"))
                         , "Password must contain minimum 8 symbols"));
-        return firstChild;
     }
 
     public boolean isErrorPasswordDisplayedFormat() {
-        Boolean lastChild = new WebDriverWait(wd, 5)
+        return new WebDriverWait(wd, 5)
                 .until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:last-child"))
                         , "Password must contain 1 uppercase letter, 1 lowercase letter and one number"));
-        return lastChild;
     }
 
     public boolean isYallaButtonInactive() {

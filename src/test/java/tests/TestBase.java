@@ -14,7 +14,7 @@ public class TestBase {
 
     @AfterSuite
     public void tearDown() {
-        //applicationManager.tearDown();
+        applicationManager.tearDown();
     }
 
 

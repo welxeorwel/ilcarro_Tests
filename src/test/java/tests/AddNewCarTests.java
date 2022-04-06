@@ -39,7 +39,7 @@ public class AddNewCarTests extends TestBase {
                 .build();
         applicationManager.car().openCarForm();
         applicationManager.car().fillCarForm(car);
-        applicationManager.car().attachPhoto("C:\\Users\\welxeor\\ilcarro_Tests\\download.jpg");
+        applicationManager.car().attachPhoto("C:\\Users\\welxeor\\projects\\ilcarro_Tests\\download.jpg");
         applicationManager.car().submit();
         Assert.assertTrue(applicationManager.car().isCarAdded());
         //login-->car added
