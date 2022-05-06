@@ -1,0 +1,53 @@
+1589 [Test worker] INFO  manager.ApplicationManager - test starts in chrome driver
+3262 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+5329 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+5330 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login?url=%2Fsearch']
+5346 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [href='/login?url=%2Fsearch'] was found
+5388 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='email']
+5409 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='email'] was found
+5512 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='password']
+5535 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='password'] was found
+5631 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+5644 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+5681 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+5688 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+5724 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Ok']
+7739 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //button[text()='Ok'] was found
+8251 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: 1
+8273 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: 1 was found
+8329 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: pickUpPlace
+8351 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: pickUpPlace was found
+8444 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .pac-item
+8832 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .pac-item was found
+9377 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: make
+9400 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: make was found
+9473 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: year
+9495 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: year was found
+9575 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: engine
+9591 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: engine was found
+9704 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: fuel
+9716 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: fuel was found
+9743 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "fuel"]
+11817 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "fuel"] was found
+11822 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+13837 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+13837 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login?url=%2Fsearch']
+15858 [Test worker] INFO  manager.MyListener - We have a problem-->no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login?url=%2Fsearch']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 197eaadae0ffa136bbe2c3099ffd0418
+*** Element info: {Using=css selector, value=[href='/login?url=%2Fsearch']}
+15859 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login?url=%2Fsearch']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 197eaadae0ffa136bbe2c3099ffd0418
+*** Element info: {Using=css selector, value=[href='/login?url=%2Fsearch']}
+15966 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458733.png

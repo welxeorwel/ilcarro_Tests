@@ -1,0 +1,153 @@
+2096 [Test worker] INFO  manager.ApplicationManager - test starts in chrome driver
+3832 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+5848 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+5854 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login?url=%2Fsearch']
+5865 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [href='/login?url=%2Fsearch'] was found
+5907 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='email']
+5928 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='email'] was found
+6032 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='password']
+6054 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='password'] was found
+6156 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+6178 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+6219 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+6240 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+6277 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Ok']
+8305 [Test worker] INFO  manager.MyListener - We have a problem-->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+8306 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+8680 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458731.png
+8684 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+10704 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+10704 [Test worker] INFO  tests.TestBase - Test starts with good data 
+10705 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login?url=%2Fsearch']
+10720 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [href='/login?url=%2Fsearch'] was found
+10749 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='email']
+10768 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='email'] was found
+11811 [Test worker] INFO  manager.MyListener - We have a problem-->element click intercepted: Element <input _ngcontent-swc-c100="" autocomplete="username" formcontrolname="email" id="email" type="email" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1217, 284). Other element would receive the click: <div _ngcontent-swc-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+11811 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-swc-c100="" autocomplete="username" formcontrolname="email" id="email" type="email" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1217, 284). Other element would receive the click: <div _ngcontent-swc-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+12170 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458731.png
+12173 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Ok']
+14193 [Test worker] INFO  manager.MyListener - We have a problem-->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+14193 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+14527 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458731.png
+14529 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+16551 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+16552 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //a[text()=' Sign up ']
+16571 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //a[text()=' Sign up '] was found
+16615 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: name
+16634 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: name was found
+16706 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: lastName
+16729 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: lastName was found
+16797 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: email
+16820 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: email was found
+16907 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: password
+16916 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: password was found
+16989 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: label[for='terms-of-use']
+17010 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: label[for='terms-of-use'] was found
+17385 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+17402 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+17423 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+17431 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+17463 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .dialog-container
+19485 [Test worker] INFO  manager.MyListener - We have a problem-->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=css selector, value=.dialog-container}
+19485 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+*** Element info: {Using=css selector, value=.dialog-container}
+19877 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458731.png
+19879 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+21905 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+21906 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //a[text()=' Sign up ']
+21921 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //a[text()=' Sign up '] was found
+21955 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: name
+21970 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: name was found
+23060 [Test worker] INFO  manager.MyListener - We have a problem-->element click intercepted: Element <input _ngcontent-swc-c101="" autocomplete="name" formcontrolname="firstName" id="name" type="text" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1217, 284). Other element would receive the click: <div _ngcontent-swc-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+23061 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-swc-c101="" autocomplete="name" formcontrolname="firstName" id="name" type="text" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1217, 284). Other element would receive the click: <div _ngcontent-swc-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=100.0.4896.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 107314248312a53c481eb16a64e643f4
+23442 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458731.png
+23443 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: 0
+23456 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: 0 was found
+23502 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: city
+23517 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: city was found
+23612 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .pac-item
+24001 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .pac-item was found
+24037 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: dates
+24051 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: dates was found
+24200 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .cdk-overlay-container
+24211 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .cdk-overlay-container was found
+24243 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+24255 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+25277 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //div[@class='ng-star-inserted']
+25300 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //div[@class='ng-star-inserted'] was found
+25309 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: 0
+25328 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: 0 was found
+25360 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: city
+25377 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: city was found
+25448 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .pac-item

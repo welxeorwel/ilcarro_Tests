@@ -11,6 +11,7 @@ public class LoginTests extends TestBase {
     public void precondition() {
         if (applicationManager.getUserhelper().isLogoutPresent()) {
             applicationManager.getUserhelper().logout();
+            logger.info("Tests need logout");
         }
     }
 
@@ -18,13 +19,14 @@ public class LoginTests extends TestBase {
     //  public void loginSuccess() {
     //    applicationManager.getUserhelper().openLoginForm();
     //    applicationManager.getUserhelper().fillLoginForm("bobik@gmail.com", "Bobik123");
-    //       applicationManager.getUserhelper().submit();
-    //   applicationManager.getUserhelper().pause(1000);
-    //     Assert.assertEquals(applicationManager.getUserhelper().checkMessage(), "Logged in success");
+    //    applicationManager.getUserhelper().submit();
+    //    applicationManager.getUserhelper().pause(1000);
+    //    Assert.assertEquals(applicationManager.getUserhelper().checkMessage(), "Logged in success");
     //  }
 
     @Test
     public void loginSuccessNew() {
+        logger.info("Test starts with good data ");
         User user = new User().setEmail("bobik@gmail.com").setPassword("Bobik123");
         applicationManager.getUserhelper().openLoginForm();
         applicationManager.getUserhelper().fillLoginForm(user);

@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -39,9 +40,18 @@ public class AddNewCarTests extends TestBase {
                 .build();
         applicationManager.car().openCarForm();
         applicationManager.car().fillCarForm(car);
-        applicationManager.car().attachPhoto("C:\\Users\\welxeor\\projects\\ilcarro_Tests\\download.jpg");
+        applicationManager.car().attachPhoto("C:\\Windows.old\\Users\\welxeor\\projects\\ilcarro_Tests\\download.jpg");
         applicationManager.car().submit();
         Assert.assertTrue(applicationManager.car().isCarAdded());
         //login-->car added
+    }
+
+    @Test(dataProvider = "validDataCar", dataProviderClass = MyDataProvider.class)
+    public void addNewCarSucsessCSV(Car car){
+        applicationManager.car().openCarForm();
+        applicationManager.car().fillCarForm(car);
+        applicationManager.car().attachPhoto("C:\\Windows.old\\Users\\welxeor\\projects\\ilcarro_Tests\\download.jpg");
+        applicationManager.car().submit();
+        Assert.assertTrue(applicationManager.car().isCarAdded());
     }
 }

@@ -104,7 +104,8 @@ public class UserHelper extends HelperBase {
 
     @AfterMethod
     public void submitOkButton() {
-        click(By.xpath("//button[text()='Ok']"));
+        if (isElementPresent(By.xpath("//button[text()='Ok']")))
+            click(By.xpath("//button[text()='Ok']"));
     }
 
 }

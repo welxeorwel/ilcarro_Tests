@@ -1,0 +1,161 @@
+1639 [Test worker] INFO  manager.ApplicationManager - test starts in chrome driver
+3046 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+5121 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+5121 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [href='/login?url=%2Fsearch']
+5138 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [href='/login?url=%2Fsearch'] was found
+5178 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='email']
+5201 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='email'] was found
+5302 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[@id='password']
+5327 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[@id='password'] was found
+5424 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+5437 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+5475 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+5498 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+5535 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Ok']
+6062 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //button[text()='Ok'] was found
+6062 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()='Ok']
+6084 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //button[text()='Ok'] was found
+6622 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: 1
+6644 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: 1 was found
+6693 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: pickUpPlace
+6705 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: pickUpPlace was found
+6781 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .pac-item
+7172 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .pac-item was found
+7713 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: make
+7735 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: make was found
+7810 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: model
+7829 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: model was found
+7915 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: year
+7941 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: year was found
+8039 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: engine
+8051 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: engine was found
+8126 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: fuel
+8145 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: fuel was found
+8159 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "Hybrid"]
+8178 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "Hybrid"] was found
+8214 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: gear
+8237 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: gear was found
+8251 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "AT"]
+8270 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "AT"] was found
+8292 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: wheelsDrive
+8316 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: wheelsDrive was found
+8328 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "FWD"]
+8347 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "FWD"] was found
+8370 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: doors
+8378 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: doors was found
+8474 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: class
+8488 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: class was found
+8592 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: seats
+8612 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: seats was found
+8692 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: fuelConsumption
+8705 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: fuelConsumption was found
+8790 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: serialNumber
+8801 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: serialNumber was found
+8893 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: price
+8911 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: price was found
+9006 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: distance
+9019 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: distance was found
+9129 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .feature-input
+9142 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .feature-input was found
+9216 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: about
+9236 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: about was found
+9326 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: photos
+9345 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: photos was found
+9380 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+9391 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+9916 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+9936 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+10479 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+10498 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+11023 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+11042 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+11061 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+11073 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+11105 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: div.dialog-container
+12237 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: div.dialog-container was found
+12256 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: div.dialog-container h1
+12273 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: div.dialog-container h1 was found
+12281 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()= 'Search cars']
+12304 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //button[text()= 'Search cars'] was found
+12336 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //*[text()=' Logout ']
+12350 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: //*[text()=' Logout '] was found
+12351 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: 1
+12365 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: 1 was found
+12466 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: pickUpPlace
+12477 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: pickUpPlace was found
+12554 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .pac-item
+12815 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .pac-item was found
+13358 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: make
+13377 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: make was found
+13474 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: model
+13487 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: model was found
+13564 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: year
+13584 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: year was found
+13681 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: engine
+13692 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: engine was found
+13783 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: fuel
+13804 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: fuel was found
+13818 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "Hybrid"]
+13838 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "Hybrid"] was found
+13874 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: gear
+13897 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: gear was found
+13910 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "AT"]
+13929 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "AT"] was found
+13951 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: wheelsDrive
+13974 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: wheelsDrive was found
+13986 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: .//option[@value = "FWD"]
+14004 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.xpath: .//option[@value = "FWD"] was found
+14027 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: doors
+14050 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: doors was found
+14148 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: class
+14159 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: class was found
+14232 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: seats
+14252 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: seats was found
+14350 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: fuelConsumption
+14361 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: fuelConsumption was found
+14444 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: serialNumber
+14453 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: serialNumber was found
+14556 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: price
+14566 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: price was found
+14644 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: distance
+14660 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: distance was found
+14757 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: .feature-input
+14769 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: .feature-input was found
+14843 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: about
+14864 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: about was found
+14946 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.id: photos
+14957 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.id: photos was found
+14988 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+15005 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+15529 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+15549 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+16076 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+16096 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+16629 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+16648 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+16669 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: [type*='submit']
+16679 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: [type*='submit'] was found
+16715 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: div.dialog-container
+17165 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: div.dialog-container was found
+17184 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.cssSelector: div.dialog-container h1
+17197 [Test worker] INFO  manager.MyListener - 'The element with locator' -->By.cssSelector: div.dialog-container h1 was found
+17205 [Test worker] INFO  manager.MyListener - 'Start find' element ---> By.xpath: //button[text()= 'Search cars']
+19222 [Test worker] INFO  manager.MyListener - We have a problem-->no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()= 'Search cars']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aafe440cfb215ec7623ab48c6d6dac83
+*** Element info: {Using=xpath, value=//button[text()= 'Search cars']}
+19222 [Test worker] INFO  manager.MyListener - We have a problem-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()= 'Search cars']"}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HKMJNMU', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\welxeor\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51067}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aafe440cfb215ec7623ab48c6d6dac83
+*** Element info: {Using=xpath, value=//button[text()= 'Search cars']}
+19341 [Test worker] INFO  manager.MyListener - This is the link to screen with problem -->src/test/screenshots/screen-458734.png

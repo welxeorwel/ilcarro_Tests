@@ -16,7 +16,7 @@ public class RegistrationTests extends TestBase {
 
     @Test
     public void registrationSuccess() {
-        int index = (int) (System.currentTimeMillis() / 1000) % 1000;
+        int index = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User()
                 .setName("Bobik")
                 .setLastName("Bob")
